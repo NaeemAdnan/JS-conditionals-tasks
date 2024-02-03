@@ -6,3 +6,16 @@ Ticket fare Calculator
     - Senior citizens (age >= 60) gets a 15% Discount
     - Otherwise Regular ticket fare 800 tk
 */
+
+const age = 20;
+
+if( age < 60){
+    if( age < 10){
+        console.log("Tui choto Free dhok")
+    }
+    else if( age >= 11 && age <= 25){
+        student = age * 15/100;
+    }
+    
+    
+}
